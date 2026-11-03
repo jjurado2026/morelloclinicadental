@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "prototype/1b.html"
+        ],
+        "createdAt": "2026-11-03T17:58:43.010Z",
+        "reason": "Claude, triage: the flagged containers are the full-bleed hero and the photo frame .marco; the navy copy of the name is cut flush at the frame edge on purpose (it is the direction's signature colour split), not text cramped in a box"
+      }
+    ]
+  }
+}

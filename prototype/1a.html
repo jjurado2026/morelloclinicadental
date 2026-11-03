@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morelló Clínica Dental | Especialistas en ortodoncia, estética e implantes.</title>
+<meta name="description" content="Morelló Clínica Dental en Barcelona. Especialistas en ortodoncia invisible, estética dental, implantes y odontopediatría.">
+<meta name="theme-color" content="#F4F4F4">
+<link rel="icon" href="logo/morello-simbolo.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/gambarino-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/author-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" imagesrcset="img/sala-espera-800.avif 800w, img/sala-espera-1600.avif 1600w, img/sala-espera-2400.avif 2400w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="1a.css">
+</head>
+<body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<canvas class="luz" aria-hidden="true"></canvas>
+<div class="grano" aria-hidden="true"></div>
+
+<header class="cab">
+  <a class="cab__logo" href="https://www.morelloclinicadental.com/"><img src="logo/morello-logo.svg" width="3147" height="998" alt="Morelló Clínica Dental"></a>
+  <nav class="cab__nav" aria-label="Principal">
+    <a href="https://www.morelloclinicadental.com/tratamientos/">Tratamientos</a>
+    <a href="https://www.morelloclinicadental.com/cita-online/">Cita Online</a>
+    <a href="https://www.morelloclinicadental.com/equipo/">Equipo Humano</a>
+    <a href="https://www.morelloclinicadental.com/la-clinica/">La clínica</a>
+    <a href="https://www.morelloclinicadental.com/contacto/">Contacto</a>
+  </nav>
+  <div class="cab__tel"><span class="estado" data-estado>Muntaner 571, 2º C</span><a class="cab__num" href="tel:+34934182129">934 182 129</a></div>
+  <button class="cab__menu" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+</header>
+
+<div class="barra" aria-hidden="true">
+  <a class="barra__logo" href="https://www.morelloclinicadental.com/" tabindex="-1"><img src="logo/morello-logo.svg" width="3147" height="998" alt="Morelló Clínica Dental"></a>
+  <nav class="barra__nav" aria-label="Principal, barra compacta">
+    <a href="https://www.morelloclinicadental.com/tratamientos/" tabindex="-1">Tratamientos</a>
+    <a href="https://www.morelloclinicadental.com/cita-online/" tabindex="-1">Cita Online</a>
+    <a href="https://www.morelloclinicadental.com/equipo/" tabindex="-1">Equipo Humano</a>
+    <a href="https://www.morelloclinicadental.com/la-clinica/" tabindex="-1">La clínica</a>
+    <a href="https://www.morelloclinicadental.com/contacto/" tabindex="-1">Contacto</a>
+  </nav>
+  <a class="barra__tel" href="tel:+34934182129" tabindex="-1">934 182 129</a>
+  <a class="btn btn--peq" href="https://www.morelloclinicadental.com/cita-online/" tabindex="-1">Pida una cita</a>
+  <button class="barra__menu" type="button" tabindex="-1" aria-controls="menu">Menú</button>
+</div>
+
+<dialog class="menu" id="menu" aria-label="Menú">
+  <div class="menu__cab"><img src="logo/morello-logo.svg" width="3147" height="998" alt="Morelló Clínica Dental"><button class="menu__cerrar" type="button">Cerrar</button></div>
+  <nav aria-label="Menú móvil">
+    <a href="https://www.morelloclinicadental.com/tratamientos/">Tratamientos</a>
+    <a href="https://www.morelloclinicadental.com/cita-online/">Cita Online</a>
+    <a href="https://www.morelloclinicadental.com/equipo/">Equipo Humano</a>
+    <a href="https://www.morelloclinicadental.com/la-clinica/">La clínica</a>
+    <a href="https://www.morelloclinicadental.com/contacto/">Contacto</a>
+  </nav>
+  <div class="menu__pie">
+    <p class="menu__estado" data-estado-largo>Muntaner 571, 2º C</p>
+    <a class="menu__tel" href="tel:+34934182129">934 182 129</a>
+    <a class="btn" href="https://www.morelloclinicadental.com/cita-online/">Pida una cita</a>
+  </div>
+</dialog>
+
+<main id="contenido">
+  <section class="hero" aria-roledescription="carrusel" aria-label="Doctores Morelló">
+    <div class="hero__media">
+      <picture class="hero__img is-on" data-slide="0">
+        <source type="image/avif" srcset="img/sala-espera-800.avif 800w, img/sala-espera-1600.avif 1600w, img/sala-espera-2400.avif 2400w" sizes="100vw">
+        <img src="img/sala-espera-1600.jpg" srcset="img/sala-espera-800.jpg 800w, img/sala-espera-1600.jpg 1600w, img/sala-espera-2400.jpg 2400w" sizes="100vw" width="2400" height="1600" alt="Sala de espera de la clínica, con el ventanal abierto a los árboles de Muntaner" fetchpriority="high">
+      </picture>
+      <picture class="hero__img" data-slide="1">
+        <source type="image/avif" srcset="img/espera-infantil-800.avif 800w, img/espera-infantil-1600.avif 1600w, img/espera-infantil-2400.avif 2400w" sizes="100vw">
+        <img src="img/espera-infantil-1600.jpg" srcset="img/espera-infantil-800.jpg 800w, img/espera-infantil-1600.jpg 1600w, img/espera-infantil-2400.jpg 2400w" sizes="100vw" width="2400" height="1600" alt="Rincón infantil de la sala de espera, con mesa y sillas para niños" loading="lazy" decoding="async">
+      </picture>
+    </div>
+
+    <div class="hero__texto" aria-live="off">
+      <div class="diapo is-on" data-slide="0" role="group" aria-roledescription="diapositiva" aria-label="1 de 2">
+        <p class="hero__nombre"><span class="ln"><span>Doctores Morelló</span></span></p>
+        <div class="hero__fila">
+          <p class="hero__sub"><span class="ln"><span>Excelencia odontológica con un trato cercano</span></span></p>
+          <a class="btn" href="https://www.morelloclinicadental.com/contacto/">Pida una cita ahora</a>
+        </div>
+      </div>
+      <div class="diapo" data-slide="1" role="group" aria-roledescription="diapositiva" aria-label="2 de 2" aria-hidden="true">
+        <p class="hero__nombre"><span class="ln"><span>Sonrisas sanas</span></span></p>
+        <div class="hero__fila">
+          <p class="hero__sub"><span class="ln"><span>para toda la familia</span></span></p>
+          <a class="btn" href="https://www.morelloclinicadental.com/tratamientos/" tabindex="-1">Ver tratamientos</a>
+        </div>
+      </div>
+      <div class="hero__pasos">
+        <button type="button" class="paso is-on" data-ir="0" aria-label="Diapositiva 1: Doctores Morelló" aria-current="true"><span></span></button>
+        <button type="button" class="paso" data-ir="1" aria-label="Diapositiva 2: Sonrisas sanas"><span></span></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="ref" aria-labelledby="ref-t">
+    <div class="ref__cab">
+      <h1 class="ref__t" id="ref-t" data-in>Clínica Dental de referencia en Barcelona</h1>
+      <div class="ref__txt">
+        <p data-in>Morelló Clínica Dental, fundada en el año 1982 por el Dr. Joan Morelló Cubells.</p>
+        <p data-in>Somos una clínica familiar que ha tenido siempre como objetivo principal la profesionalidad y la seriedad con los pacientes, lo que nos ha hecho crecer como una clínica de referencia en Barcelona.</p>
+      </div>
+    </div>
+
+    <div class="accesos">
+      <article class="acceso acceso--ancho" data-in>
+        <a class="acceso__foto" href="https://www.morelloclinicadental.com/la-clinica/" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source type="image/avif" srcset="img/recepcion-cristal-800.avif 800w, img/recepcion-cristal-1600.avif 1600w, img/recepcion-cristal-2400.avif 2400w" sizes="(min-width: 900px) 34vw, 100vw">
+            <img src="img/recepcion-cristal-1600.jpg" srcset="img/recepcion-cristal-800.jpg 800w, img/recepcion-cristal-1600.jpg 1600w, img/recepcion-cristal-2400.jpg 2400w" sizes="(min-width: 900px) 34vw, 100vw" width="2400" height="1600" alt="" loading="lazy" decoding="async">
+          </picture>
+        </a>
+        <div class="acceso__pie">
+          <h2>Sobre nosotros</h2>
+          <a class="enlace" href="https://www.morelloclinicadental.com/la-clinica/">Más información</a>
+        </div>
+      </article>
+
+      <article class="acceso" data-in>
+        <a class="acceso__foto" href="https://www.morelloclinicadental.com/equipo/" tabindex="-1" aria-hidden="true">
+          <picture>
+            <source type="image/avif" srcset="img/doctores-800.avif 800w, img/doctores-1600.avif 1600w, img/doctores-2052.avif 2052w" sizes="(min-width: 900px) 40vw, 100vw">
+            <img src="img/doctores-1600.jpg" srcset="img/doctores-800.jpg 800w, img/doctores-1600.jpg 1600w, img/doctores-2052.jpg 2052w" sizes="(min-width: 900px) 40vw, 100vw" width="2052" height="1368" alt="" loading="lazy" decoding="async">
+          </picture>
+        </a>
+        <div class="acceso__pie">
+          <h2>El equipo</h2>
+          <a class="enlace" href="https://www.morelloclinicadental.com/equipo/">Nuestros doctores</a>
+        </div>
+      </article>
+
+      <article class="acceso acceso--cita" data-in>
+        <h2>Cita online</h2>
+        <p class="cita__estado" data-estado-largo>Horario de la clínica</p>
+        <ul class="semana" aria-label="Horario">
+          <li data-dia="1"><span>Lunes</span><span>10 a 14 h · 16 a 20 h</span></li>
+          <li data-dia="2"><span>Martes</span><span>10 a 14 h</span></li>
+          <li data-dia="3"><span>Miércoles</span><span>9 a 14 h · 16 a 20 h</span></li>
+          <li data-dia="4"><span>Jueves</span><span>16 a 20 h</span></li>
+          <li data-dia="5"><span>Viernes</span><span>10 a 14 h</span></li>
+        </ul>
+        <a class="cita__tel" href="tel:+34934182129">934 182 129</a>
+        <a class="btn" href="https://www.morelloclinicadental.com/cita-online/">Pida una cita</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <img class="pie__logo" src="logo/morello-logo-blanco.svg" width="3147" height="998" alt="Morelló Clínica Dental">
+  <div class="pie__datos">
+    <a href="https://goo.gl/maps/yKcNHb74snL2">Carrer de Muntaner, 571 - 2º C, 08022 Barcelona</a>
+    <a href="tel:+34934182129">934 182 129</a>
+    <a href="https://www.instagram.com/morelloclinicadental/">Instagram</a>
+    <a href="https://www.facebook.com/Morelloclinicadental/">Facebook</a>
+  </div>
+  <div class="pie__legal">
+    <p>Morelló Clínica Dental © 2017 - 2026. Reservados todos los derechos.</p>
+    <a href="https://www.morelloclinicadental.com/aviso-legal/">Aviso legal</a>
+    <a href="https://www.morelloclinicadental.com/politica-de-privacidad/">Política de privacidad</a>
+    <a href="https://www.morelloclinicadental.com/politicas-de-cookies/">Política de cookies</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="1a.js" defer></script>
+</body>
+</html>

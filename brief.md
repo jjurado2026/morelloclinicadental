@@ -7,32 +7,42 @@ Cada dato va marcado como *(extraído)* de su web, *(propuesto)* por nosotros o 
 - **Descripción:** clínica dental familiar en un piso de Sant Gervasi, Barcelona, fundada en 1982 por el Dr. Joan Morelló Cubells *(extraído)*
 - **Web actual:** https://www.morelloclinicadental.com/ *(extraído)*
 - **Tipo de proyecto:** rediseño, remaquetación 1:1 de la home *(extraído del encargo)*: mismos bloques, mismo orden, textos literales, imágenes, logo y colores del cliente. La mejora está en tipografía, composición, jerarquía, UX, motion y rendimiento.
-- **Fase actual:** extracción terminada, tres direcciones presentadas, falta elegir.
+- **Fase actual:** extracción terminada (3-nov-2026). Primera ronda de direcciones (1a «El arco», 1b «Muntaner 571», 1c «Casa Morelló») rechazada por Juan. Segunda ronda: 1a «A la altura de las copas» y 1b «Doctores Morelló».
 
 ## Objetivo
 - Que la web transmita la clínica que es (familiar, seria, con 44 años de trayectoria y un equipo especializado) y convierta visitas en citas: llamada al 934 182 129 o solicitud por formulario *(propuesto)*.
 - Arreglar lo que hoy impide que funcione: sin aceptar cookies desaparece el hero, los banners y los botones de cita; LCP de 5,7 s en móvil; CLS de 0,75 en escritorio *(extraído del diagnóstico)*.
 - Prioridades del cliente (más pacientes de ortodoncia invisible, odontopediatría, implantes…) *(pendiente)*.
 
-## Sector y competencia
-- **Sector:** salud, clínica dental privada de barrio alto (Sant Gervasi). El público espera confianza, limpieza y profesionalidad: fotos reales, mucho blanco, tipografía legible y una forma clara de pedir cita *(propuesto, a partir de `ui-ux-pro-max` y del análisis del sector)*.
-- **Lo habitual en el nicho:** plantillas de WordPress con slider, tarjetas con icono, fotos de stock de sonrisas y un azul corporativo. Es el punto de partida de esta web.
-- **Competencia local directa:** *(pendiente)*. No se ha pedido un estudio de competidores de la zona.
+## Qué necesita el usuario *(propuesto, de `ui-ux-pro-max` y del diagnóstico)*
+Del sector solo se toma lo funcional. Quien llega quiere:
+- **Llamar o pedir cita** sin buscar: teléfono y cita visibles en la primera pantalla y siempre a mano en móvil.
+- **Saber si está abierto:** el horario es irregular (cinco días distintos, sin fines de semana) y hoy solo está en /contacto/.
+- **Ver qué tratamientos hacen** y llegar a cada uno.
+- **Confiar en quién le atiende:** el equipo con nombre y especialidad, y la trayectoria desde 1982.
+- **Saber dónde está:** Muntaner 571, 2º C, con mapa.
 
-## Referentes premium *(propuesto)*
-| Referente | Qué se toma |
+La estética del sector no es referencia: las webs dentales son plantillas de blanco, azul y sonrisas de stock, y parecerse a ellas es fracasar. Competencia local *(pendiente, no se estudia)*.
+
+## Referentes premiados *(propuesto)*
+Capturados a 1440×900 en `_interno/referentes/` (notas en `referentes.md`). Ninguno es del sector.
+
+| Referente | Técnica que se toma |
 |---|---|
-| [Neko Health](https://www.nekohealth.com) (web de 14islands, Lovie Gold 2023) | La calma clínica presentada con la seguridad de un producto: mucho aire, imagen grande y movimiento que explica en lugar de decorar. |
-| [Tend](https://www.hellotend.com) (marca premiada en Red Dot) | Un estudio dental que no da miedo: tono cercano y una identidad aplicada con coherencia en todo el recorrido. |
-| [30 Beaumont Street](https://www.30beaumontstreet.co.uk) | El blanco editorial y la tipografía con aire de una clínica privada de prestigio. |
-| [Zen Dental Studio](https://www.zendentalstudio.com) | Contención: pocos elementos, jerarquía clara y fotografía del espacio real. |
-| [Aesop](https://www.aesop.com) (fuera del sector) | Materialidad y fotografía de espacios como argumento de marca; texto sobrio. |
+| [Daylight Computer](https://daylightcomputer.com/) | La luz natural como material: sombras de persiana y de hojas sobre un campo gris claro, con grano fino. → 1a |
+| [White Desert](https://white-desert.com/) | Una palabra gigante anclada al borde inferior sobre la imagen a sangre, como el título de una película. → 1a y 1b |
+| [Tengile MalaMala](https://tengilemalamala.com/) | Serif fina en titulares y fotos a tamaños distintos entre columnas. → 1a |
+| [Seasats](https://www.seasats.com/) | Ritmo pausado y paleta sacada del propio lugar. → 1a |
+| [Paul Kalkbrenner](https://www.paulkalkbrenner.net/) | El nombre como cartel suizo con el retrato metido en la línea; cada capítulo, su campo de color plano. → 1b |
+| [City of Angels](https://cityxofxangels.com) | El título fijado que atraviesa el marco de una foto mientras la foto cambia dentro. → 1b |
+| [Revelatio Studio](https://revelatio.studio/) (Awwwards SOTD) | La foto del equipo como pieza principal que crece con el scroll. → bloque «Nuestro Equipo» |
+| [Z. Webb Perinatal](https://zperinatal.com) | Una consulta de salud presentada como algo personal: foto con grano y servicios en lista tipográfica, no en tarjetas. → bloques de servicios |
 
-## Concepto de dirección de arte
-*(pendiente)*: elegir entre `1a`, `1b` y `1c` en `prototype/direcciones.html`.
-- **1a · El arco:** el arco cian del símbolo Morelló, el mismo que está grabado en el cristal de su recepción, dibuja la web.
-- **1b · Muntaner 571, 2º C:** una visita al piso de la clínica, con sus fotos colgadas como copias en una pared.
-- **1c · Casa Morelló:** la clínica de la familia Morelló presentada con la calma de una casa de relojería: campo azul, pocas palabras, largas pausas.
+## Idea propia y momento firma *(propuesto, se elige en la parada 1)*
+Inventario de lo que solo tiene Morelló: el apellido como titular («Doctores Morelló», padre e hija), fundada en 1982, un piso en Muntaner 571 2º C, ventanas a la altura de las copas de los árboles de la calle, parquet de taco y radiador de hierro, un horario irregular, el equipo de uniforme en los colores del logo.
+- **1a · A la altura de las copas.** La clínica está en un segundo piso de Muntaner, a la altura de los árboles: la luz que entra por sus ventanas, filtrada por las hojas, cae sobre toda la web. *Momento firma:* shader WebGL de luz moteada (la ventana proyectada con su montante, motas de sol y sombras de hojas que se mueven con el viento y con el scroll), con el azul marino de la marca como color de la sombra, sobre fotos, fondo y texto. Gambarino + Author.
+- **1b · Doctores Morelló.** El apellido es el titular de la clínica desde 1982: la web se compone como un cartel con el nombre a todo el ancho, fijo, mientras pasan los doctores que lo llevan. *Momento firma:* «Morelló» gigante en dos colores (blanco sobre el campo azul, azul sobre la foto) que cambia de color al paso del marco de la foto entre diapositivas. Neco + Cabinet Grotesk.
+- **Pieza viva (las dos):** el estado del horario real en hora de Barcelona («Abierto, hasta las 14 h» / «Cerrado, abre mañana a las 9 h») y el día de hoy marcado en la semana.
 
 ## Identidad extraída
 - **Logo:** símbolo de diente cuyo contorno forma una «M» (arco superior cian, cuerpo azul) + «morelló» en slab serif minúscula + «CLÍNICA DENTAL» en sans espaciada *(extraído)*. Solo existía en PNG: **vectorizado** en `assets/logo/` (color, negativo, blanco, símbolo y arco) *(propuesto: validar con el cliente o pedir el original)*.
@@ -65,11 +75,13 @@ Cada dato va marcado como *(extraído)* de su web, *(propuesto)* por nosotros o 
 ## Material visual *(extraído)*
 - **Reales y con calidad:** sesión profesional de 2018–2019 de la clínica (sala de espera con ventanal, box, recepción, logo en pared, rincón infantil) y del equipo (Dr. Joan con la Dra. Carmen, tres doctoras). Interiores blancos, parquet, toques turquesa y verde: encajan con la marca.
 - **Stock del cliente:** imágenes de tratamientos (brackets, sonrisas, niña) a 1080 px y el banner de Invisalign a 906 px. Se usan (son suyas) con un tratamiento que las unifica y a un tamaño que aguanten.
-- **Falta:** fachada o portal de Muntaner 571, fotos reales de tratamientos, retratos en una sola sesión. Para la home no hace falta generar nada; si se quiere cubrir lo que falta, Higgsfield con OK previo y sin presentarlo como real *(pendiente)*.
+- **Valoración honesta:** la sala de espera con ventanal (041, 4104 px), el rincón infantil (040) y la recepción limpia (043) aguantan gran formato; la portada de Facebook de la recepción lleva el logo superpuesto y no se usa; el box (046) es frío y no va a sangre; los retratos de fondo blanco valen como retrato, no como atmósfera.
+- **Tratamiento:** 1a, la luz del shader cae sobre las fotos (atenuada sobre la foto del hero) y un leve ajuste de saturación y contraste; 1b, recorte en marco y cambio de color del nombre a su paso.
+- **Falta:** fachada o portal de Muntaner 571, fotos reales de tratamientos, retratos en una sola sesión *(pendiente)*. Lo que falte en la home completa, placeholder etiquetado.
 - Todas las imágenes del prototipo van en AVIF + JPEG con `srcset`.
 
 ## Motion
-- **Nivel:** medio *(propuesto)*. Salud pide calma: una coreografía de entrada y un gesto propio por dirección, sin efectos que mareen. `prefers-reduced-motion` siempre.
+- **Nivel:** protagonista *(propuesto)*. Una coreografía por dirección: 1a, lenta y continua como el viento (salidas expo, 1,1–1,4 s, la luz siempre viva); 1b, cinética y precisa (quint out en entradas, ease-in-out fuerte en el desplazamiento del marco). Solo transform y opacity; con `prefers-reduced-motion`, la misma información sin desplazamientos y la luz quieta.
 
 ## CMS
 - **Actual:** WordPress 7.1.4 con The7, WPBakery, Slider Revolution, LiteSpeed Cache sobre Apache y CookieYes *(extraído)*.
