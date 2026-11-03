@@ -1,0 +1,5 @@
+# Repo público (GitHub Pages): el diagnóstico y el material de propuesta no se publican
+_interno/
+.DS_Store
+node_modules/
+.playwright-cli/
