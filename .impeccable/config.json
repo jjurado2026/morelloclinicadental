@@ -11,6 +11,33 @@
         ],
         "createdAt": "2026-11-03T17:58:43.010Z",
         "reason": "Claude, triage: the flagged containers are the full-bleed hero and the photo frame .marco; the navy copy of the name is cut flush at the frame edge on purpose (it is the direction's signature colour split), not text cramped in a box"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "prototype/1a.html"
+        ],
+        "createdAt": "2026-11-03T20:38:11.717Z",
+        "reason": "Claude, triage: flagged element is the closed mobile <dialog class=menu>, which has 16-36px padding; its links have no background or border, so no text sits flush against a visible boundary"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "prototype/2a.html"
+        ],
+        "createdAt": "2026-11-04T00:37:49.718Z",
+        "reason": "Claude, triage: flagged are full-bleed section grounds (odp, esp, inv, where, ask) whose content sits in the page wrapper with the outer margin, the edge-to-edge treatments marquee, and the access-list rows whose full-row link overlay touches the row rules while the text keeps 10px padding in 64px rows"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "prototype/2b.html"
+        ],
+        "createdAt": "2026-11-04T00:37:49.731Z",
+        "reason": "Claude, triage: flagged are full-bleed section grounds (ref, tto, team, donde) and the cyan .cta__field, whose content sits in .wrap with the outer margin (34px inset at 1440), plus .bento__call, which has clamp(24px,2.6vw,40px) padding; no text touches a visible edge"
       }
     ]
   }

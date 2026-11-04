@@ -83,6 +83,7 @@ a:where(:hover){color:var(--marino)}
 .menu{inset:0;width:100%;max-width:none;height:100%;max-height:none;margin:0;border:0;padding:var(--s-3) var(--m);background:var(--marino);color:var(--blanco)}
 .menu[open]{display:flex;flex-direction:column;gap:var(--s-5)}
 .menu a{color:var(--blanco)}
+.menu .btn{color:var(--marino)}
 .menu__cerrar{min-height:44px;padding:0 4px;background:none;border:0;font:500 1rem var(--f-txt);color:var(--blanco);cursor:pointer}
 .menu nav{display:grid;gap:var(--s-1)}
 .menu nav a{display:flex;align-items:center;min-height:48px}
